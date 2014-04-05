@@ -1,12 +1,135 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Bootstrap 101 Template</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Chess</title>
 		<script src="js/script.js"></script>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<h1>Hello, world!</h1>
+		<div id="main">
+			<table id="board">
+				<tr class="frame">
+					<td>&nbsp;</td>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+					<td>G</td>
+					<td>H</td>
+					<td>&nbsp;</td>
+				</tr>				
+				<tr>
+					<td class="frame">8</td>
+					<td id="A8"><span class="black">rook</span></td>
+					<td id="B8"><span class="black">knight</span></td>
+					<td id="C8"><span class="black">bishop</span></td>
+					<td id="D8"><span class="black">queen</span></td>
+					<td id="E8"><span class="black">king</span></td>
+					<td id="F8"><span class="black">bishop</span></td>
+					<td id="G8"><span class="black">knight</span></td>
+					<td id="H8"><span class="black">rook</span></td>
+					<td class="frame">8</td>
+				</tr>
+				<tr>
+					<td class="frame">7</td>
+					<td id="A7"><span class="black">pawn</span></td>
+					<td id="B7"><span class="black">pawn</span></td>
+					<td id="C7"><span class="black">pawn</span></td>
+					<td id="D7"><span class="black">pawn</span></td>
+					<td id="E7"><span class="black">pawn</span></td>
+					<td id="F7"><span class="black">pawn</span></td>
+					<td id="G7"><span class="black">pawn</span></td>
+					<td id="H7"><span class="black">pawn</span></td>
+					<td class="frame">7</td>
+				</tr>
+				<tr>
+					<td class="frame">6</td>
+					<td id="A6">&nbsp;</td>
+					<td id="B6">&nbsp;</td>
+					<td id="C6">&nbsp;</td>
+					<td id="D6">&nbsp;</td>
+					<td id="E6">&nbsp;</td>
+					<td id="F6">&nbsp;</td>
+					<td id="G6">&nbsp;</td>
+					<td id="H6">&nbsp;</td>
+					<td class="frame">6</td>
+				</tr>
+				<tr>
+					<td class="frame">5</td>
+					<td id="A5">&nbsp;</td>
+					<td id="B5">&nbsp;</td>
+					<td id="C5">&nbsp;</td>
+					<td id="D5">&nbsp;</td>
+					<td id="E5">&nbsp;</td>
+					<td id="F5">&nbsp;</td>
+					<td id="G5">&nbsp;</td>
+					<td id="H5">&nbsp;</td>
+					<td class="frame">5</td>
+				</tr>
+				<tr>
+					<td class="frame">4</td>
+					<td id="A4">&nbsp;</td>
+					<td id="B4">&nbsp;</td>
+					<td id="C4">&nbsp;</td>
+					<td id="D4">&nbsp;</td>
+					<td id="E4">&nbsp;</td>
+					<td id="F4">&nbsp;</td>
+					<td id="G4">&nbsp;</td>
+					<td id="H4">&nbsp;</td>
+					<td class="frame">4</td>
+				</tr>
+				<tr>
+					<td class="frame">3</td>
+					<td id="A3">&nbsp;</td>
+					<td id="B3">&nbsp;</td>
+					<td id="C3">&nbsp;</td>
+					<td id="D3">&nbsp;</td>
+					<td id="E3">&nbsp;</td>
+					<td id="F3">&nbsp;</td>
+					<td id="G3">&nbsp;</td>
+					<td id="H3">&nbsp;</td>
+					<td class="frame">3</td>
+				</tr>
+				<tr>
+					<td class="frame">2</td>
+					<td id="A2"><span class="white">pawn</span></td>
+					<td id="B2"><span class="white">pawn</span></td>
+					<td id="C2"><span class="white">pawn</span></td>
+					<td id="D2"><span class="white">pawn</span></td>
+					<td id="E2"><span class="white">pawn</span></td>
+					<td id="F2"><span class="white">pawn</span></td>
+					<td id="G2"><span class="white">pawn</span></td>
+					<td id="H2"><span class="white">pawn</span></td>
+					<td class="frame">2</td>
+				</tr>
+				<tr>
+					<td class="frame">1</td>
+					<td id="A1"><span class="white">rook</span></td>
+					<td id="B1"><span class="white">knight</span></td>
+					<td id="C1"><span class="white">bishop</span></td>
+					<td id="D1"><span class="white">queen</span></td>
+					<td id="E1"><span class="white">king</span></td>
+					<td id="F1"><span class="white">bishop</span></td>
+					<td id="G1"><span class="white">knight</span></td>
+					<td id="H1"><span class="white">rook</span></td>
+					<td class="frame">1</td>
+				</tr>
+				<tr class="frame">
+					<td>&nbsp;</td>
+					<td>A</td>
+					<td>B</td>
+					<td>C</td>
+					<td>D</td>
+					<td>E</td>
+					<td>F</td>
+					<td>G</td>
+					<td>H</td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
