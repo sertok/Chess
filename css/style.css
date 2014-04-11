@@ -18,25 +18,27 @@ td{
 	font-weight:bold;
 	width:60px;
 	height:60px;
-	background:#F8EADE;
+	background:#575A60;
+
 }
 
 
 tr:nth-child(2n+1) td:nth-child(2n+1),
 tr:nth-child(2n) td:nth-child(2n){
-	background:#CC772D;
+	background:#7E838B;
+
 }
 
 #board td:first-child,#board td:last-child{
 	width:20px;
-	background:#543112;
+	background:#241A05;
 	border-left:2px solid black;
 	border-right:2px solid black;
 	
 }
 #board tr:first-child td,#board tr:last-child td{
 	height:20px;
-	background:#543112;
+	background:#241A05;
 	border-top:2px solid black;
 	border-bottom:2px solid black;
 }
@@ -46,9 +48,7 @@ tr:nth-child(2n) td:nth-child(2n){
 }
 .black{
 	color:black;
-	text-shadow:black 2px 2px 2px;
 }
 .white{
 	color:white;
-	text-shadow:black 2px 2px 2px;
 }
